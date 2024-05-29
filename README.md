@@ -14,7 +14,7 @@ sudo install ./iectl-linux/iectl /usr/local/bin/
 
 ## Script 1: Load all apps to IEM
 1. Open install_iem_all_apps.script.py
-2. update the fields (FILL IN part)
+2. update the fields
     * IEHUB_USER = "FILL_IN" 
     * HUB_API_KEY = "FILL_IN" 
     * IEM_NAME = "FILL_IN" 
@@ -25,7 +25,7 @@ python3 install_all_iem_apps_script.py
 
 ## Script 2. Load some apps to IEM
 1. Open install_iem_apps.script.py
-2. update the fields (FILL IN part)
+2. update the fields 
     * IEHUB_USER = "FILL_IN"  
     * HUB_API_KEY = "FILL_IN"
     * IEM_NAME = "FILL_IN" 
