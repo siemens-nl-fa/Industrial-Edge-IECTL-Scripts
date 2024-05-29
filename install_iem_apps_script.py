@@ -7,8 +7,8 @@ import time
 # Fill in these vars
 HUB_USER = "FILL_IN"  # Email of the user with API access granted
 HUB_API_KEY = "FILL_IN"  # HUB API key
-IEM_NAME = "FILL_IN"
-
+IEM_NAME = "FILL_-I"
+# EDGE_SKIP_TLS = 1
 
 # Set environment variables
 # os.environ['EDGE_SKIP_TLS'] = str(EDGE_SKIP_TLS)
