@@ -3,8 +3,8 @@
 
 ## Requirements
 
-1. Install Industrial Edge Control
-Extract iectl-linux folder
+### Install Industrial Edge Control
+1. Extract iectl-linux folder here
 
 2. Install iectl as a command
 ```bash
