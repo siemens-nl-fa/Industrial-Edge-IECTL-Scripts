@@ -35,3 +35,16 @@ python3 install_all_iem_apps_script.py
 ```bash 
 python3 install_all_iem_apps_script.py
 ``` 
+
+## Script 3. Load apps to the edge device
+1. open install_apps_on_ied_script.py
+2. update fields
+    * IEM_NAME = "FILL_IN"
+    * IEM_URL  = "https://FILL_IN"
+    * IEM_USER = "FILL_IN" #email
+    * IEM_PWD  = "FILL_IN"
+3. edit array ```devices_to_install``` and ```apps_to_install``` as needed
+4. run command: 
+```bash 
+python3 install_apps_on_ied_script.py
+``` 
