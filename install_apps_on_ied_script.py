@@ -71,8 +71,7 @@ def find_appinfo_by_appname( name):
 def find_deviceinfo_by_devicename( name):
     for obj in iem_devices:        
         if obj.get("deviceName") == name:
-            return obj
-       
+            return obj       
     return None
 
 
@@ -82,12 +81,9 @@ def create_infomap_string():
     for deviceName in devices_to_install:
         data.append(find_deviceinfo_by_devicename(deviceName))
     formatted_data = { "devices": [entry['deviceId'] for entry in data] }
-    return json.dumps(formatted_data)
-    
-
+    return json.dumps(formatted_data)  
 infomapString = create_infomap_string()
 # print(infomapString)
-
 
 
 for app_name in apps_to_install:   
